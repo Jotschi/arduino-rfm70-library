@@ -129,7 +129,7 @@ void RFM70::begin() {
 	// Set the SPI frequency to be one sixteenth of the frequency of the system clock
 	rfm70_SPI.setClockDivider(RFM77_DEFAULT_SPI_CLOCK_DIV);
 	digitalWrite(_cs, LOW);
-	delay(1000);
+	delay(100);
 
 	delayMs(RFM70_BEGIN_INIT_WAIT_MS);
 	initRegisters();

@@ -75,7 +75,7 @@
 
 //this is new
 #define RCV_BUFFER_SIZE 32
-#define SEND_DELAY 255 // delay in µs to wait after sending
+#define SEND_DELAY   128 // delay in µs to wait after sending
 //************************RFM function parameter constants********************************//
 #define WITH_ACK     0x01 // parameter for sendPayload(..): send with ack expectation
 #define NO_ACK       0x00 // parameter for sendPayload(..): send without ack expectation
@@ -102,7 +102,7 @@
 
 //************************RFM Definitions************************************************//
 #define RFM70_MAX_PACKET_LEN 32// max value is 32
-#define RFM70_BEGIN_INIT_WAIT_MS 3000 // pause before Init Registers
+#define RFM70_BEGIN_INIT_WAIT_MS 500 // pause before Init Registers
 #define RFM70_END_INIT_WAIT_MS 100 // pause after init registers
 #define RFM70_CS_DELAY 0 // wait ms after CS pin state change
 
