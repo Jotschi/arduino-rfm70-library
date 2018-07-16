@@ -6,11 +6,11 @@ getRcvBuffer	KEYWORD2
 getRcvByte	KEYWORD2
 getPacketLength	KEYWORD2
 begin	KEYWORD2
-setMode KEYWORD2
+setMode	KEYWORD2
 setChannel	KEYWORD2
 sendPayload	KEYWORD2
 sendAckPayload	KEYWORD2
 receivePayload	KEYWORD2
 flushTxFIFO	KEYWORD2
 flushRxFIFO	KEYWORD2
-RFM KEYWORD1
+RFM	KEYWORD1
